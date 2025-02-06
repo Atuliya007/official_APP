@@ -1,8 +1,5 @@
 from flask import Flask, render_template, redirect, url_for, request, session
-# from flask import *
-
 from datetime import timedelta
-
 
 app = Flask(__name__)
 app.secret_key = "ztr"
